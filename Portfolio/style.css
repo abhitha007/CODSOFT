@@ -1,0 +1,65 @@
+
+main {
+  flex: 100%;
+  /* Set the width of the main content */
+  background-color: black;
+  /* White background color */
+}
+
+/* every even section with grey color */
+section:nth-child(even) {
+  background-color: #f7f7f7;
+}
+
+section {
+  /* text-align: center; */
+  height: 100%;
+  padding: 75px 0px;
+  min-height: 40vh;
+  color: white;
+}
+.Hi{
+  margin-top: 50vh;
+  margin-left: 5vh;
+  font-size: 10vh;
+}
+.name{
+  margin-top: 2vh;
+  margin-left: 5vh;
+  font-size: 10vh;
+}
+img{
+
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+section.intro > img {
+  height: 500px;
+  width: 500px;
+  margin: 15vh 15vh;
+  float: right;
+  opacity: 0.8;
+  
+}
+
+section#Skills>ul>li,section#Projects>div.projects>ul>li{
+  margin-top: 5vh;
+}
+
+   @media (max-width : 640px) {
+    section.intro > img {
+      height: 150px;
+      width: 150px; 
+    }
+  } 
+   @media (max-width : 840px) {
+    section.intro > img {
+      height: 200px;
+      width: 200px; 
+    }
+  } 
+
+i{
+  margin: 6px;
+}

@@ -1,0 +1,118 @@
+/* Google Font  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+div#Hire,
+div#Hire::before,
+div#Hire::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+div#Hire {
+    font-family: 'Poppins', sans-serif;
+}
+
+.card-wrapper {
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    color: #252a35;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    width: 280px;
+    height: 500px;
+    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.03);
+    padding: 20px;
+    border-radius: 10px;
+    transition: 0.3s ease;
+    margin: 0 20px;
+    margin-top: 40px;
+
+}
+.card-header {
+    padding: 0 0 20px;
+}
+
+.card-title {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.card-sub-title {
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.price {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.price span.duration {
+    font-size: 16px;
+}
+
+.card-body {
+    height: 240px;
+}
+
+.features-list {
+    list-style: none;
+}
+
+.features {
+    margin: 10px 0;
+}
+.features i{
+    margin-right: 5px 0;
+}
+
+.card-btn {
+    font-size: 16px;
+    font-family:'Poppins', sans-serif;
+    display: block;
+    margin: 0 auto;
+    font-weight: 500;
+    background: transparent;
+    border: 1px solid #252a35;
+    padding: 10px 25px;
+    border-radius: 30px;
+    cursor:pointer;
+    margin-top: 10px;
+    transition: 0.3s ease;
+}
+
+.card:hover {
+    background: #252a35;
+    color: #fff;
+
+}
+.card:hover .card-btn{
+    color: #fff;
+    border: 1px solid #fff;
+
+}
+.card-btn:hover{
+    color: #252a35 !important;
+    border: 1px solid #fff;
+    background: #fff;
+
+}
+
+  
+/* @media (width < 800) {
+    .card-wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-direction: row;
+      gap: 20px;
+      text-align: left;
+    }
+  } */

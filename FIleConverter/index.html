@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+      <!-- Icon for website -->
+      <link rel="apple-touch-icon" sizes="180x180" href="./assets/logo/favicon/apple-touch-icon.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="./assets/logo/favicon/favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="./assets/logo/favicon/favicon-16x16.png">
+      <link rel="manifest" href="./assets/logo/favicon/site.webmanifest">
+      
+    <title> FileConverter.com | Home</title>
+    <link rel="stylesheet" href="">
+    <!-- Linking Fontawesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
+        <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Flickity carousel -->
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <!-- Main stylesheet -->
+    <link rel="stylesheet" href="flickity.css">
+  </head>
+  <body>
+    <main>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <!-- <img src="./assets/logo/logo3.png" alt="" width="100%" height="28" >  --><b id="logotext">Files</b>Converter</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Beta</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Convert
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#"></a></li>
+                <li><a class="dropdown-item" href="#jpg">Convert to JPG </a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#png">Convert to PNG</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Contact US</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- carosouel -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="active" aria-current="true" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <!--  Carousel -->
+      <section class="study_material" id="section4">
+        <div class="carousel js-flickity" data-flickity-options='{ "wrapAround": true }'>
+            <div class="carousel-cell">
+                <a href="#jpg">
+                <img  alt=""
+                        class="img-responsive"
+                        src="./assets/image/jpg.png" ></a>
+            </div>
+            <div class="carousel-cell">
+                <a href="#png">
+               <img alt=""
+                        class="img-responsive"
+                        src="./assets/image/png.png" ></a>
+            </div>                     
+            <!-- <div class="carousel-cell">
+                <img alt=""
+                        class="img-responsive"
+                        src="./assets/image/caro1.png" ></a>
+                        </div> -->
+    </section>
+     <!--  section  -->
+     <section class="founder section4" id="jpg">
+      <span><img src="./download1.png" alt=""></span>
+      <h4 class="profile_name">Convert to JPG</h4>
+      <div class="mb-3">
+        <label for="formFile" class="form-label">Upload File</label>
+        <input class="form-control" type="file" id="formFile">
+        <div class="download-btn">
+        <button type="button" class="btn btn-dark btn-convert">Convert</button>
+        <button type="button" class="btn btn-dark btn-convert">Download JPG</button>
+    </div>
+      </div>
+      
+    
+
+      <!-- <div class="about_us">
+          <h2 class="about_title"> Don't miss anything!  </h2>
+      </div> -->
+  </section>
+     <section class="founder section4" id="png">
+      <span><img src="./download1.png" alt=""></span>
+      <h4 class="profile_name">Convert to PNG</h4>
+      <div class="mb-3">
+        <label for="formFile" class="form-label">Upload File</label>
+        <input class="form-control" type="file" id="formFile">
+        <div class="download-btn">
+        <button type="button" class="btn btn-dark btn-convert">Convert</button>
+        <button type="button" class="btn btn-dark btn-convert">Download PNG</button>
+    </div>
+      </div>
+      <!-- <div class="about_us">
+          <h2 class="about_title"> Don't miss anything!  </h2>
+      </div> -->
+  </section>
+    </section>
+     <!--  section  -->
+     <section class="founder section4">
+      <span><img src="./download1.png" alt=""></span>
+      <h4 class="profile_name">Follow us on</h4>
+      <div class="sm-handle">
+          <a class="yt_handle" href="http://www.youtube.com/" target="_blank"
+              rel="noopener noreferrer"><i class="fab fa-youtube fa-lg"></i>YouTube</a>
+          <a class="linkdn_handle" href="http://www.linkedin.com/in/" target="_blank"
+              rel="noopener noreferrer"><i class="fab fa-linkedin fa-lg"></i>LinkedIn</a>
+          <a class="insta_handle" href="http://www.instagram.com/whois_abhi007" target="_blank"
+              rel="noopener noreferrer"><i class="fab fa-instagram fa-lg"></i>Instagram</a>
+      </div>
+
+      <div class="about_us">
+          <h2 class="about_title"> Don't miss anything!  </h2>
+          <span class="badge rounded-pill bg-danger">More Files Support Coming Soon.</span>
+      </div>
+  </section>
+    <!-- last section  -->
+    <section class="our_founder">
+      <span><img src="./assets/image/motologo.png" alt=""></span>
+      <p>© 2023 FileConverter.com. All Rights Reserved. <br> FileConverter and the Stylized  Logo are registered trademarks of FileConverter.com.</p>
+  </section>
+  </main>
+  <!-- Footer -->
+      <footer>
+        <a href="#">FAQ</a>
+        <a href="mailto:someone@example.com">Contact Us</a>
+        <a href="#">Terms of Use</a>
+        <a href="#">Privacy Policy</a>
+        <!-- <a href="#">Refund Policy</a> -->
+        <a href="#" class="flex-align-left">&copy; 2023 | FileConverter.com</a>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+  </body>
+</html>
